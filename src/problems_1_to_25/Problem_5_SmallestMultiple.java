@@ -35,7 +35,14 @@ public class Problem_5_SmallestMultiple {
 		long commonMultiple = 0;
 		Map<Integer, Integer> primePowers = new HashMap<Integer, Integer>();
 		for(int number=1; number<= range ; number++){
-			
+			int count = 0;
+			for(int divider = 1; divider <= number; divider++){
+				if(number % divider == 0 ){
+					if(number / divider > 1){
+						
+					}
+				}
+			}
 		}
 		
 		return commonMultiple;

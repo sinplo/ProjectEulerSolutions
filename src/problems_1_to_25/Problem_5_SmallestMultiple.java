@@ -30,7 +30,7 @@ public class Problem_5_SmallestMultiple {
 	//multiplying the highest power of each prime number together
 	//source wikipedia  https://en.wikipedia.org/wiki/Least_common_multiple#Finding_least_common_multiples_by_prime_factorization
 	
-	//TODO implement method
+	//TODO implement method for smallestMultiple
 	public static long leastCommonMultiple(int range){
 		long commonMultiple = 0;
 		Map<Integer, Integer> primePowers = new HashMap<Integer, Integer>();

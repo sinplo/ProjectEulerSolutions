@@ -160,7 +160,7 @@ public class Problem_7_10001stPrime {
 
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		 System.out.println("Correct Answer: " + 104743);
 		// System.out.println(primeNumberInPlace2(10001));
 		// System.out.println("Result: ");

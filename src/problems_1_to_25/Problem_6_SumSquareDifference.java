@@ -35,7 +35,7 @@ public class Problem_6_SumSquareDifference {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		System.out.println(sumOfSquares(10));
 		System.out.println(squareOFSum(10));
 		System.out.println("Correct Answer: " + 25164150 + "\nResult: " + differenceOfSquares(100));

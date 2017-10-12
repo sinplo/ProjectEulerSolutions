@@ -1,6 +1,6 @@
 package problems_1_to_25;
 
-public class Problem_4_Palindrome {
+public class Problem_04_Palindrome {
 	// A palindromic number reads the same both ways. The largest palindrome
 	// made from the product of two 2-digit numbers is 9009 = 91 × 99.
 	//

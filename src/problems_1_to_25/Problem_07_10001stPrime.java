@@ -2,7 +2,7 @@ package problems_1_to_25;
 
 import java.util.ArrayList;
 
-public class Problem_7_10001stPrime {
+public class Problem_07_10001stPrime {
 	// https://projecteuler.net/problem=7
 	//
 	// By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can

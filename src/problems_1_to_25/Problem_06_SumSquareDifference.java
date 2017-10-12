@@ -1,6 +1,6 @@
 package problems_1_to_25;
 
-public class Problem_6_SumSquareDifference {
+public class Problem_06_SumSquareDifference {
 //The sum of the squares of the first ten natural numbers is = 385
 //The square of the sum of the first ten natural numbers is = 3025
 //Hence the difference between the sum of the squares of the first ten natural numbers and the square of the sum is 3025 -385 =2640

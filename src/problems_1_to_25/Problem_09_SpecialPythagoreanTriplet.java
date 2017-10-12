@@ -1,6 +1,6 @@
 package problems_1_to_25;
 
-public class Problem_9_SpecialPythagoreanTriplet {
+public class Problem_09_SpecialPythagoreanTriplet {
 	// https://projecteuler.net/problem=9
 	//
 	// A Pythagorean triplet is a set of three natural numbers, a < b < c, for

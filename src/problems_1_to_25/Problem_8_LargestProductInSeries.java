@@ -35,7 +35,6 @@ public class Problem_8_LargestProductInSeries {
 	
 	public static long largestProductOfDigits(int numberOfDigits){
 		long largestProduct = 0;
-		
 		for(int index = 0 ; index < matrixOfDigits.length() - numberOfDigits; index++){
 			
 			String subStringNumber = matrixOfDigits.substring(index, index + numberOfDigits);

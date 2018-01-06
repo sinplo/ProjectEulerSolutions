@@ -61,7 +61,7 @@ public class Problem_21_AmicableUnder1000Sum {
 
 	}
 	public static void main(String[] args) {
-//		 TODO Auto-generated method stub
+
 
 		//31626
 		System.out.println(amicableNumberSum());

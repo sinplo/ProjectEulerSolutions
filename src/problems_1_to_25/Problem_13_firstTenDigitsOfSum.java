@@ -166,7 +166,6 @@ public class Problem_13_firstTenDigitsOfSum {
 		return digits;
 	}
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		//		BigInteger number = new BigInteger("53503534226472524250874054075591789781264330331690");
 

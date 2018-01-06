@@ -103,7 +103,7 @@ public class Problem_14_firstNumberWithLongestChain {
 		return number;
 	}
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// TODO Too slow check for better one
 		calculateStartingNumber();
 		System.out.println(number.value + "     "+  number.chainLength);
 		HashMap<Integer, Integer> d = new HashMap<Integer, Integer>();

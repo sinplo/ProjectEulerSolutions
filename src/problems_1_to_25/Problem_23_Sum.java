@@ -103,7 +103,7 @@ public class Problem_23_Sum {
 	
 	
 	public static void main(String[] args) {
-			// TODO Auto-generated method stub
+		
 			//4179871
 			System.out.println(getSumOfNotNumbers2());
 

@@ -9,7 +9,7 @@ public class Problem_15_FindNumberOfPaths {
 //
 //	How many such routes are there through a 20×20 grid?
 	
-	
+//	good additional info (especially the second link)	
 //	http://www.luschny.de/math/factorial/FastFactorialFunctions.htm
 //	https://betterexplained.com/articles/navigate-a-grid-using-combinations-and-permutations/
 	
@@ -17,16 +17,22 @@ public class Problem_15_FindNumberOfPaths {
 		String pathCount = "";
 		BigInteger gridRowFac = getFactorialForLarge(20, 1);
 //		System.out.println("G: " + gridRowFac);
+		//because first 20 multiplications are the same those can be emitted therefore we multiply until index goes down to 20
 		BigInteger sumOfRowAndColumns = getFactorialForLarge(40, 20);
 //		System.out.println("d: " + sumOfRowAndColumns);
 		
+		//formula from second link paths= (sumOfRowAndComlumns)! / (row)! / (column)!
+		//because we emited first 20 muliplications from (sumOfRowAndColumns)! 
+		//paths = (21*22*...40) / (row)!
 		BigInteger intermidiateProduct = sumOfRowAndColumns.divide(gridRowFac);
 		pathCount = String.valueOf(intermidiateProduct);
 		return pathCount;
 	}
 	
+	//get the factorial
 	public static BigInteger getFactorialForLarge(int number, int lowerLimit){
 		BigInteger factorial = BigInteger.valueOf(number);
+		
 		for(int index = number-1 ; index > lowerLimit; index --){
 			factorial = factorial.multiply(BigInteger.valueOf(index));
 		}

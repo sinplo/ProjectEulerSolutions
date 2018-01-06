@@ -39,6 +39,7 @@ public class Problem_10_SummationOfPrimes {
 		}
 		return sum;
 	}	
+	//TODO implement faster method for primeNumbers
 
 	public static void main(String[] args) {
 		System.out.println("Correct Answer: " + "142913828922");

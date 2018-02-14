@@ -1,5 +1,6 @@
 package problems_1_to_25;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Problem_14_firstNumberWithLongestChain {
@@ -102,6 +103,24 @@ public class Problem_14_firstNumberWithLongestChain {
 		}
 		return number;
 	}
+	
+	
+	
+	public static int largestSequance(){
+		int startNumber = 0;
+		HashMap<Integer, Integer> lenghts = new HashMap<Integer, Integer>();
+		for(int i = 2; i <1000000 ; i++){
+			ArrayList<Integer> sequece = new ArrayList<Integer>();
+			for(int index = i; index < 1000000; index++){
+				if(lenghts.containsKey(index) == false){
+				
+				}
+			}
+		
+		}
+		return startNumber;
+	}
+	
 	public static void main(String[] args) {
 		// TODO Too slow check for better one
 		calculateStartingNumber();
